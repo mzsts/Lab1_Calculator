@@ -7,7 +7,6 @@ namespace Lab1_Calculator
         private static void Main(string[] args)
         {
             Console.Write("Высота стен: ");
-
             double wallsHeight;
             while (Double.TryParse(Console.ReadLine(), out wallsHeight) is false || wallsHeight <= 0)
             {
